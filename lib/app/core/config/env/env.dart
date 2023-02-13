@@ -10,7 +10,7 @@ class Env {
     _instance??=  Env._();
     return _instance!;
    }
-
+//teste
    Future<void> load() => dotenv.load();
 
 String? operator [](String key) => dotenv.env[key];
